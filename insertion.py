@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-import  random
+import random
+
 
 def insertion_sort(array, size):
 
