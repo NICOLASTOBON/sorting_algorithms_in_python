@@ -10,9 +10,9 @@ def burbble_sort(array, size):
 
 
 if __name__ == "__main__":
-    matrix = int(input("Escribe el tamaño de la lista: "))
+    size = int(input("Escribe el tamaño de la lista: "))
 
-    array = [random.randint(0, 50) for _ in range(matrix)]
+    array = [random.randint(0, 50) for _ in range(size)]
     print(array)
-    new_list = burbble_sort(array, len(array))
+    new_list = burbble_sort(array, size)
     print(new_list)
